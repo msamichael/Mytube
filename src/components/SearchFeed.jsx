@@ -23,7 +23,7 @@ const SearchFeed = () => {
 
       fetchData();
     }
-  }, []);
+  }, [searchTerm]);
 
 
   return (
